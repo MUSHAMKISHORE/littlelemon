@@ -14,7 +14,7 @@ function App() {
     occasion: " ",
   });
 
-  
+
   const today = new Date();
 
   const init = { times: fetchAPI(today) };
